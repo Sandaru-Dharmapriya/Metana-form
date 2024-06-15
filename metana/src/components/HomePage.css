@@ -1,0 +1,38 @@
+.home-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  main h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+  main ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  main ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .start-button {
+    background-color: #d3b3fc;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .footer-text {
+    margin-top: 1rem;
+    color: grey;
+  }
+  

@@ -1,0 +1,36 @@
+.form-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  form {
+    margin-top: 2rem;
+  }
+  
+  form input {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  form button {
+    background-color: #d3b3fc;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
