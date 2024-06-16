@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './FormPage.css';
 
 const FormPage = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Submitted: ${firstName} ${lastName}`);
+    // Removed alert
+    navigate('/form/step1');
   }
 
   return (

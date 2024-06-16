@@ -1,0 +1,23 @@
+@import './FormPage.css';
+
+/* Additional styles for FormPage7 */
+.form-container .header .logo {
+  /* Specific styles for the logo on FormPage7 */
+}
+
+form {
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+}
+
+form input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 20px;
+}
