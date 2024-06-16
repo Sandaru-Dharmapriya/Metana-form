@@ -3,12 +3,12 @@ import './FormPage8.css';
 import { useNavigate } from 'react-router-dom';
 
 const FormPageLinkedIn = () => {
-    const [linkedin, setLinkedin] = useState('');
+  const [linkedin, setLinkedin] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/form/step8');
+    navigate('/form/step7');
   }
 
   return (
@@ -19,8 +19,13 @@ const FormPageLinkedIn = () => {
       <main>
         <h2>LinkedIn URL (optional)</h2>
         <p>Here’s a sniper link to make your life easy - <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com</a> (It’ll open in a new tab) 🚀</p>
-        <form>
-          <input type="text" placeholder="Type your answer here..." />
+        <form onSubmit={handleSubmit}>
+          <input 
+            type="text" 
+            placeholder="Type your answer here..." 
+            value={linkedin}
+            onChange={(e) => setLinkedin(e.target.value)}
+          />
           <button type="submit">Submit</button>
         </form>
       </main>

@@ -10,8 +10,8 @@ import FormPage4 from './components/FormPage4';
 import FormPage5 from './components/FormPage5';
 import FormPage6 from './components/FormPage6';
 import FormPage7 from './components/FormPage7';
-import FormPage6 from './components/FormPage6';
-import FormPage7 from './components/FormPage7';
+import FormPage8 from './components/FormPage8';
+import FormPage9 from './components/FormPage9';
 
 function App() {
   return (
@@ -26,6 +26,8 @@ function App() {
           <Route path="/form/step4" element={<FormPage5 />} />
           <Route path="/form/step5" element={<FormPage6 />} />
           <Route path="/form/step6" element={<FormPage7 />} />
+          <Route path="/form/step7" element={<FormPage8 />} />
+          <Route path="/form/step8" element={<FormPage9/>} />
         </Routes>
       </div>
     </Router>
