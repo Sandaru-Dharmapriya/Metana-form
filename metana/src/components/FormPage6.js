@@ -20,7 +20,7 @@ const FormPage6 = () => {
         <h2>What is your current annual compensation? (Optional)</h2>
         <p>Disclaimer: The information provided regarding salary will be kept confidential and will not be used as a determining factor for acceptance into the bootcamp. It will be used exclusively for career advancement guidance.</p>
         <form onSubmit={handleSubmit}>
-          <label>
+          <label className='radio'>
             <input type="radio" name="salary" value="<30000" onChange={(e) => setSalary(e.target.value)} /> &lt;$30,000
           </label>
           <label>

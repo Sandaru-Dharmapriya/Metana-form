@@ -1,6 +1,5 @@
 import React from 'react';
 import './FormPage9.css';
-import { useNavigate } from 'react-router-dom';
 
 const FormPageThankYou = () => {
 

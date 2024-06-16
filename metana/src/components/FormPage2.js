@@ -1,14 +1,12 @@
-// src/components/FormPage2.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './FormPage.css';
+import './FormPage2.css';
 
 const FormPage2 = () => {
   const [email, setEmail] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    // Save email to session storage or state management
     sessionStorage.setItem('email', email);
     navigate('/form/step2');
   };

@@ -2,6 +2,7 @@
     text-align: center;
     padding: 2rem;
   }
+
   
   .header .logo {
     font-size: 1.5rem;
@@ -9,26 +10,34 @@
   }
   
   main h1 {
-    font-size: 2rem;
+    font-size: 50px;
     margin-top: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #5b299d;
   }
+
   
   main ul {
     list-style: none;
     padding: 0;
+    font-size: 25px;
   }
   
   main ul li {
     margin: 0.5rem 0;
+    font-size: 25px;
+    color:#491c85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .start-button {
     background-color: #d3b3fc;
     border: none;
     padding: 1rem 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     margin-top: 1rem;
+    border-radius: 20px;
   }
   
   .footer-text {

@@ -1,4 +1,3 @@
-// src/components/FormPage4.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './FormPage.css';
@@ -9,7 +8,6 @@ const FormPage4 = () => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    // Save phone number to session storage or state management
     sessionStorage.setItem('phone', phone);
     sessionStorage.setItem('countryCode', countryCode);
     navigate('/form/step4');

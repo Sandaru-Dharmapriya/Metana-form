@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+   
     background-color: #f4f4f4;
   }
   
@@ -17,20 +17,24 @@
   .form-step h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-size: 38px;
+    color: #8e44ad;
   }
   
   .form-step p {
     font-size: 14px;
     margin-bottom: 20px;
+    color: #4e275e;
   }
   
   .form-step input {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 10px;
+  
   }
   
   .form-step button {
@@ -38,9 +42,10 @@
     background-color: #9b59b6;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+    
   }
   
   .form-step button:hover {

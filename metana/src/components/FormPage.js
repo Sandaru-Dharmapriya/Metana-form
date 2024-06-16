@@ -9,7 +9,6 @@ const FormPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Removed alert
     navigate('/form/step1');
   }
 

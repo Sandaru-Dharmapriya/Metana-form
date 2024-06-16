@@ -1,4 +1,3 @@
-// src/components/FormPage3.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './FormPage.css';
@@ -8,7 +7,6 @@ const FormPage3 = () => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    // Save country to session storage or state management
     sessionStorage.setItem('country', country);
     navigate('/form/step3');
   };
@@ -17,7 +15,7 @@ const FormPage3 = () => {
     <div className="form-container">
       <div className="form-step">
         <h2>Which country are you from? 🏡</h2>
-        <select value={country} onChange={(e) => setCountry(e.target.value)}>
+        <select className="selection" value={country} onChange={(e) => setCountry(e.target.value)}>
           <option value="" disabled>Select your country</option>
           <option value="United States">United States</option>
           <option value="United Kingdom">United Kingdom</option>

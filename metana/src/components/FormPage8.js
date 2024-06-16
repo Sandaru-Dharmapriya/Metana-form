@@ -8,7 +8,7 @@ const FormPageLinkedIn = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/form/step7');
+    navigate('/form/step8');
   }
 
   return (

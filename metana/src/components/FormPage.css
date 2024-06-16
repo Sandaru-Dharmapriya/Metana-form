@@ -1,36 +1,51 @@
 .form-container {
-    text-align: center;
-    padding: 2rem;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
   
-  .header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: #d3b3fc;
+ 
   
-  main h2 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-  
-  form {
-    margin-top: 2rem;
-  }
-  
-  form input {
-    display: block;
-    margin: 0.5rem auto;
-    padding: 0.5rem;
-    width: 80%;
-    max-width: 300px;
-  }
-  
-  form button {
-    background-color: #d3b3fc;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 1rem;
-  }
-  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  color: #d3b3fc;
+}
+
+form input {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 300px;
+  border-radius: px;
+  color: #d3b3fc;
+ 
+}
+
+form button {
+  background-color: #d3b3fc;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 20px;
+}
