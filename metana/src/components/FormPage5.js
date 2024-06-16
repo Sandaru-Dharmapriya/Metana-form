@@ -8,7 +8,7 @@ const FormPage5 = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/form/step2');
+    navigate('/form/step5');
   }
 
   return (

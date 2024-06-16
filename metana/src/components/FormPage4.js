@@ -12,7 +12,7 @@ const FormPage4 = () => {
     // Save phone number to session storage or state management
     sessionStorage.setItem('phone', phone);
     sessionStorage.setItem('countryCode', countryCode);
-    navigate('/'); // Navigate to home or a different page after the form is complete
+    navigate('/form/step4');
   };
 
   return (

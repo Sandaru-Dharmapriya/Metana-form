@@ -10,6 +10,8 @@ import FormPage4 from './components/FormPage4';
 import FormPage5 from './components/FormPage5';
 import FormPage6 from './components/FormPage6';
 import FormPage7 from './components/FormPage7';
+import FormPage6 from './components/FormPage6';
+import FormPage7 from './components/FormPage7';
 
 function App() {
   return (
